@@ -43,7 +43,7 @@ body {
 .button {
   background-color: #ddd;
   border: none;
-  color: rgb(0, 0, 0);
+  color: black;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
@@ -54,6 +54,5 @@ body {
 }
 
 .button:hover {
-  background-color: #ffffff;
+  background-color: #f1f1f1;
 }
-
