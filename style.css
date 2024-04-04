@@ -40,8 +40,8 @@ body {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-/*fim do menu*/
-.button {
+/*fim do menu
+/.button {
   background-color: #ddd;
   border: none;
   color: rgb(0, 0, 0);
@@ -52,7 +52,7 @@ body {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 16px;
-}
+}*/
 
 .button:hover {
   background-color: #ffffff;
