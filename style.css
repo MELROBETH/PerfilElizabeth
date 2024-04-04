@@ -42,9 +42,9 @@ body {
 }
 /*fim do menu*/
 .button {
-  background-color: #ddd;
+  background-color: #070707;
   border: none;
-  color: black;
+  color: rgb(255, 255, 255);
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
@@ -57,3 +57,4 @@ body {
 .button:hover {
   background-color: #f1f1f1;
 }
+
