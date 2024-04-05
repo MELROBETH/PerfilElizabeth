@@ -9,7 +9,7 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: #e41212;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -40,6 +40,7 @@ body {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+/*fim do menu*/
 .button {
   background-color: #ddd;
   border: none;
