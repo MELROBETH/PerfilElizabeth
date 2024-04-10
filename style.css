@@ -48,6 +48,9 @@ body {
   .sidenav a {font-size: 18px;}
 }
 /*fim do menu*/
+.button-container {
+  text-align: center; /* Centralizar os botões horizontalmente */
+}
 .button {
   background-color: #ffffff;
   border: none;
@@ -64,4 +67,5 @@ body {
 .button:hover {
   background-color: #7e7e7e;
 }
+
 
