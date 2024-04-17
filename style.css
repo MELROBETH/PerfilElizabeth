@@ -53,7 +53,7 @@ body {
 }
 .button {
   background-color: #ffffff;
-  border: none;
+  border-color: none;
   color: black;
   padding: 10px 20px;
   text-align: center;
