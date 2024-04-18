@@ -1,9 +1,10 @@
 .header {
   background-color: blueviolet;
-  color:rgb(253, 255, 255)
+  color:rgb(253, 255, 255);
   padding: 20px 0;
   text-align: center;
 }
+
 /*começo do menu*/
 body {
   font-family: "Lato", sans-serif;
