@@ -96,6 +96,21 @@
     </a>
   </li> 
     </ol>
+<!---botão marcio-->
+<script>
+  let count = 0;
+  function incrementCount(){
+    count++;
+    document.getElementById("count-display").textContent = count;
+  }
+</script>
+</head>
+<body>
+   <main>
+      <div class="container">
+          <button onclick="incrementCount()">Clique aqui</button>
+          <p>Total de Cliques: <span id="count-display">0</span> </p>
+          </div>
 
   </body>
   </html>
