@@ -49,6 +49,11 @@ body {
   .sidenav a {font-size: 18px;}
 }
 /*fim do menu*/
+/*começo do botão*/
+body {
+    background-color: #fafafa;
+    color: #2a2a2a;
+}
 .button-container {
   text-align: center; /* Centralizar os botões horizontalmente */
 }
@@ -69,6 +74,7 @@ body {
   background-color: #7e7e7e;
 }
 /*fim do botao*/
+/*coemço da imagem*/
 img {
   max-width: 70%;
   height: auto;
@@ -111,6 +117,15 @@ ol, ul {
   font-size: 44px;
   color: var(--cosmos-ref-color-neutral400);
 }
+{
+    font-family: Inter, "Noto Sans", Arial, Roboto, sans-serif;
+    font-style: normal;
+    font-size: 1.6rem;
+    letter-spacing: -0.0176rem;
+    font-weight: 650;
+    --typography: "cosmos-ref-typography-baseStrong16";
+    line-height: 2rem;
+}
 .top-list_mus b {
   max-width: 330px;
   color: var(--cosmos-ref-color-letrasSecondary600contrast);
@@ -118,6 +133,9 @@ ol, ul {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+}
+ul, ol {
+    list-style: none;
 }
 .top-list_mus span {
   color: var(--cosmos-ref-color-neutral400);
@@ -149,7 +167,14 @@ ul, ol {
   width: 65.89%;
   column-count: 2;
   column-gap: 24px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+ul, ol {
+    list-style: none;
+}
+
 /*botão marcio*/
 button {
   padding: 10px 20px;
@@ -167,4 +192,3 @@ button {
   }
   /*botão marcio*/
 
-  
