@@ -92,6 +92,7 @@ img {
     --typography: "cosmos-ref-typography-baseStrong24";
     line-height: 2.8rem;
     text-align: center; /* Para centralizar o texto */
+    color: #a62bd7;
 }
 
 .lyric-meaning {
