@@ -115,7 +115,7 @@ ol, ul {
   width: 56px;
   font-family: "Lato", Arial, sans-serif;
   font-size: 44px;
-  color: var(--cosmos-ref-color-neutral400);
+  color: #a62bd7;
 }
 {
     font-family: Inter, "Noto Sans", Arial, Roboto, sans-serif;
@@ -128,7 +128,7 @@ ol, ul {
 }
 .top-list_mus b {
   max-width: 330px;
-  color: var(--cosmos-ref-color-letrasSecondary600contrast);
+  color: #a62bd7;
   display: block;
   overflow: hidden;
   white-space: nowrap;
@@ -138,7 +138,7 @@ ul, ol {
     list-style: none;
 }
 .top-list_mus span {
-  color: var(--cosmos-ref-color-neutral400);
+  color: #9e9e9e;
   margin-top: 4px;
 }
 .top-list_mus a, .top-list_mus .b, .top-list_mus span {
@@ -174,6 +174,7 @@ ul, ol {
 ul, ol {
     list-style: none;
 }
+
 
 /*botão marcio*/
 button {
