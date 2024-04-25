@@ -199,3 +199,75 @@ ul, ol {
 }
 
 
+/* Adicione isso ao seu arquivo style.css */
+
+/* Estilos para telas pequenas */
+@media screen and (max-width: 600px) {
+  .sidenav {
+    width: 100%;
+  }
+
+  .openbtn {
+    display: block;
+    text-align: center;
+  }
+
+  .button-container {
+    text-align: center;
+  }
+
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .top-list_mus a {
+    padding: 12px 16px;
+  }
+
+  .top-list_mus a:before {
+    left: 16px;
+  }
+
+  .top-list_mus b {
+    max-width: 100%;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .top-list-container {
+    margin: 0 10px;
+  }
+}
+
+/* Estilos para telas médias */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .button-container {
+    text-align: center;
+  }
+
+  .image-container img {
+    max-width: 80%;
+    height: auto;
+  }
+
+  .top-list_mus a {
+    padding: 12px 16px;
+  }
+
+  .top-list_mus a:before {
+    left: 16px;
+  }
+
+  .top-list_mus b {
+    max-width: 100%;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .top-list-container {
+    margin: 0 20px;
+  }
+}
