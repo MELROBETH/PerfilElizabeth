@@ -1,0 +1,31 @@
+.page-header {
+    padding-right: 140px;
+}
+folha de estilos de agente de usuário
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+.--fontSizeMedium {
+    font-size: 12pt;
+}
+.--fontFamilyArial {
+    font-family: sans-serif;
+}
+.page {
+    min-height: 27.46cm;
+    width: 17.7cm;
+    padding: 1.12cm 1.65cm;
+    margin: 60px auto;
+    background: var(--cosmos-ref-color-whiteSolid700);
+    border-radius: 2px;
+    box-shadow: var(--cosmos-shadow-heavy-1dp);
+    color: var(--cosmos-ref-color-neutral600);
+    position: relative;
+}
+body {
+    margin: 0;
+    background: #f1f1f1;
+    word-wrap: break-word;
+    font: 12px / 1 sans-serif;
+}
