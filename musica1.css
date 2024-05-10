@@ -54,7 +54,7 @@ h2 {
 }
 /*cor do nome da musica*/
 
-
+/*letra*/
 .filter~.page {
     margin-top: 30px;
 }
@@ -119,8 +119,6 @@ body {
     background: #f1f1f1;
     word-wrap: break-word;
     font: 12px / 1 sans-serif;
-}
-{
     color: rgb(42, 42, 42);
 }
 .page.isTranslation .page-container+.page-container {
@@ -164,4 +162,11 @@ body {
     background: #f1f1f1;
     word-wrap: break-word;
     font: 12px / 1 sans-serif;
+}
+ .page.--doubleColumn:after, .page.isTranslation:after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    display: block;
+    clear: both;
 }
