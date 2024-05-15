@@ -150,13 +150,14 @@ ol, ul {
     line-height: 2rem;
 }
 .top-list_mus b {
-  max-width: 560px;
+  max-width: 300px; /* Definindo uma largura máxima para os nomes das músicas */
   color: #a62bd7;
   display: block;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
+
 ul, ol {
     list-style: none;
 }
