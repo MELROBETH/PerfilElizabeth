@@ -198,4 +198,27 @@ ul, ol {
     list-style: none;
 }
 
+/*lista de artistas*/
+.round-image-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center; /* Centraliza os itens horizontalmente */
+}
 
+.round-image-list li {
+  margin-bottom: 20px; /* Espaçamento entre os itens */
+}
+
+.round-image-list img {
+  border-radius: 50%; /* Torna a imagem redonda */
+  width: 150px; /* Defina a largura da imagem conforme necessário */
+  height: 150px; /* Defina a altura da imagem conforme necessário */
+  object-fit: cover; /* Para manter a proporção da imagem */
+  margin-bottom: 10px; /* Espaçamento entre a imagem e o texto */
+}
+
+.round-image-list p {
+  margin: 0; /* Remove margem padrão do parágrafo */
+  font-size: 14px; /* Tamanho da fonte do texto abaixo da imagem */
+}
