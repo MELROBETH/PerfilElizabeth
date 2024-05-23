@@ -1,9 +1,20 @@
-.header {
-  background-color: blueviolet;
-  color:rgb(253, 255, 255)
-  padding: 20px 0;
-  text-align: center;
+
+.logo {
+  width: 300px;
+text-align: center;
+margin: 0 auto;
 }
+
+/* Estilos para a imagem */
+.imagemm {
+  max-width: 70%;
+  height: auto;
+  border-radius: 10px;
+  display: block; /* Garante que a imagem se comporte como um bloco */
+  margin-left: auto; /* Centraliza a imagem horizontalmente */
+  margin-right: auto; /* Centraliza a imagem horizontalmente */
+}
+
 
 /*começo do menu*/
 body {
@@ -93,6 +104,9 @@ img {
     line-height: 2.8rem;
     text-align: center; /* Para centralizar o texto */
     color: #a62bd7;
+    text-align: center; /* Centraliza horizontalmente */
+    display: block; /* Garante que o link ocupe a largura total disponível */
+    margin-bottom: 20px; 
 }
 
 .lyric-meaning {
@@ -139,6 +153,8 @@ ol, ul {
   font-family: "Lato", Arial, sans-serif;
   font-size: 44px;
   color: #a62bd7;
+  margin-left: -120px;
+
 }
 {
     font-family: Inter, "Noto Sans", Arial, Roboto, sans-serif;
