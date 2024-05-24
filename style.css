@@ -157,13 +157,13 @@ ol, ul {
 
 }
 {
-    font-family: Inter, "Noto Sans", Arial, Roboto, sans-serif;
-    font-style: normal;
-    font-size: 1.6rem;
-    letter-spacing: -0.0176rem;
-    font-weight: 650;
-    --typography: "cosmos-ref-typography-baseStrong16";
-    line-height: 2rem;
+  font-family: Inter, "Noto Sans", Arial, Roboto, sans-serif;
+  font-style: normal;
+  font-size: 1.6rem;
+  letter-spacing: -0.0176rem;
+  font-weight: 650;
+  --typography: "cosmos-ref-typography-baseStrong16";
+  line-height: 2rem;
 }
 .top-list_mus b {
   max-width: 560px;
