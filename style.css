@@ -206,7 +206,9 @@ ul, ol {
   width: 65.89%;
   column-count: 2;
   column-gap: 24px;
-  margin-left: auto;
+  margin-left: auto;o */
+  height: 150px; 
+  object-fit: cover; 
   margin-right: auto;
 }
 
@@ -215,26 +217,51 @@ ul, ol {
 }
 
 /*lista de artistas*/
-.round-image-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  text-align: center; /* Centraliza os itens horizontalmente */
+.gridContainer-sidebar {
+    flex: 328;
+    position: relative;
+    min-width: 299.33px;
+    max-width: min((100vw - 334px - 24px)* 328 / 1008, 408px);
 }
-
-.round-image-list li {
-  margin-bottom: 20px; /* Espaçamento entre os itens */
+div {
+    display: block;
+    unicode-bidi: isolate;
 }
-
-.round-image-list img {
-  border-radius: 50%; /* Torna a imagem redonda */
-  width: 150px; /* Defina a largura da imagem conforme necessário */
-  height: 150px; /* Defina a altura da imagem conforme necessário */
-  object-fit: cover; /* Para manter a proporção da imagem */
-  margin-bottom: 10px; /* Espaçamento entre a imagem e o texto */
+body, button, input, option, select, textarea {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    letter-spacing: -.0084rem;
 }
-
-.round-image-list p {
-  margin: 0; /* Remove margem padrão do parágrafo */
-  font-size: 14px; /* Tamanho da fonte do texto abaixo da imagem */
+body {
+    padding-top: 68px;
+    color: var(--neutral600);
+    background: var(--systemBackground);
 }
+.font, body, button, input, option, select, textarea {
+    font-family: Inter, "Noto Sans", Arial, Roboto, sans-serif;
+}
+body {
+    padding-top: 68px;
+    color: var(--neutral600);
+    background: var(--systemBackground);
+}
+html {
+    font-size: 62.5%;
+    -webkit-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    word-wrap: break-word;
+    }
+    .gridContainer-sidebar {
+      display: flex;
+    }
+    
+    .top-list_mus {
+      flex: 1;
+    }
+    
+    .top-list_art {
+      flex: 1;
+    }
+    
+  
