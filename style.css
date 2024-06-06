@@ -256,12 +256,14 @@ html {
       display: flex;
     }
     
-    .top-list_mus {
+    .top-list_mus,
+    .top-list_art {
       flex: 1;
     }
     
-    .top-list_art {
-      flex: 1;
+    /* Adicione margem entre as listas para separá-las */
+    .top-list_mus {
+      margin-right: 20px;
     }
     
   
