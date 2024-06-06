@@ -247,23 +247,49 @@ body {
     background: var(--systemBackground);
 }
 html {
-    font-size: 62.5%;
     -webkit-text-size-adjust: none;
     -ms-text-size-adjust: none;
     word-wrap: break-word;
     }
-    .gridContainer-sidebar {
-      display: flex;
-    }
-    
-    .top-list_mus,
-    .top-list_art {
-      flex: 1;
-    }
-    
-    /* Adicione margem entre as listas para separá-las */
-    .top-list_mus {
-      margin-right: 20px;
-    }
-    
+    html {
+      -ms-text-size-adjust: none;
+}
+.top-list_art {
+  counter-reset: tlart;
+}
+ol, ul {
+  list-style: none;
+}
+.player-info li:only-of-type, blockquote, body, button, h1, h2, h3, h4, h5, h6, hr, legend, ol, option, p, select, table, td, textarea, th, ul {
+  margin: 0;
+  padding: 0;
+}
+ol {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  unicode-bidi: isolate;
+}
+body, button, input, option, select, textarea {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  letter-spacing: -.0084rem;
+}
+body {
+  padding-top: 68px;
+  color: var(--neutral600);
+  background: var(--systemBackground);
+}
+.font, body, button, input, option, select, textarea {
+  font-family: Inter, "Noto Sans", Arial, Roboto, sans-serif;
+}
+body {
+  padding-top: 68px;
+  background: var(--systemBackground);
+}
+
   
