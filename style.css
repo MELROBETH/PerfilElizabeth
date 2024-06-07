@@ -218,187 +218,196 @@ ul, ol {
 
 /*lista de artistas*/
 
-.gridContainer {
-  width: calc(100vw - 334px);
-}
+
+
+
+
+
+
+
 
 .gridContainer {
-max-width: 1272px;
-min-width: 946px;
-margin: 0 auto 48px;
+        width: calc(100vw - 15px);
+}
+.gridContainer {
+    max-width: 1272px;
+    min-width: 946px;
+    margin: 0 auto 48px;
 }
 section {
-unicode-bidi: isolate;
+    unicode-bidi: isolate;
 }
 .sectionHeader-link, .sectionHeader:not(:has(.sectionHeader-link)) {
-text-align: center;
-width: fit-content;
-color: #5e17eb;
-padding: 6px;
-font-size: 2.4rem;
-letter-spacing: -.0456rem;
-line-height: 2.8rem;
-font-weight: 650;
---iconColor: #5e17eb(--neutral500);
+    width: fit-content;
+    color: #5e17eb;
+    padding: 6px;
+    font-size: 2.4rem;
+    letter-spacing: -.0456rem;
+    line-height: 2.8rem;
+    font-weight: 650;
+    --iconColor: #5e17eb(--neutral500);
 }
 .sectionHeader {
-text-align: center;
-margin-bottom: 16px;
-display: flex;
-align-items: relative;
-justify-content: space-between;
-position: relative;
+  text-align: center;
+}
+
+.sectionHeader {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: relative;
+    justify-content: space-between;
+    position: relative;
 }
 
 .homeRecommendedArtists-artists {
-display: grid;
-grid-template-columns: repeat(3, minmax(0, 1fr));
-column-gap: 24px;
-margin-top: -8px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    column-gap: 24px;
+    margin-top: -8px;
 }
 ol, ul {
-list-style: none;
+    list-style: none;
 }
 .player-info li:only-of-type, blockquote, body, button, h1, h2, h3, h4, h5, h6, hr, legend, ol, option, p, select, table, td, textarea, th, ul {
-margin: 0;
-padding: 0;
+    margin: 0;
+    padding: 0;
 }
 ul {
-margin-block-start: 1em;
-margin-block-end: 1em;
-margin-inline-start: 0px;
-margin-inline-end: 0px;
-padding-inline-start: 40px;
-unicode-bidi: isolate;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
 }
 
 li {
-display: list-item;
-text-align: -webkit-match-parent;
-unicode-bidi: isolate;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
 }
 ol, ul {
-list-style: none;
+    list-style: none;
 }
 
 .homeRecommendedArtists-artists-link {
-display: flex;
-align-items: center;
-gap: 20px;
-padding: 16px;
-transition: background-color .2s;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 16px;
+    transition: background-color .2s;
 }
 a {
-text-decoration: none;
-color: var(--letrasPrimary600Contrast);
+    text-decoration: none;
+    color: var(--letrasPrimary600Contrast);
 }
 .editPlaylist-selectOrder-select:focus, .editPlaylist-selectOrder:focus, a, button, input, textarea {
-outline: 0;
+    outline: 0;
 }
 
 a:-webkit-any-link {
-cursor: pointer;
+    cursor: pointer;
 }
 folha de estilos de agente de usuário
 li {
-text-align: -webkit-match-parent;
+    text-align: -webkit-match-parent;
 }
 ol, ul {
-list-style: none;
+    list-style: none;
 }
 
 
 .thumbnail {
-display: flex;
---appearance100: #5e17eb(--neutral100Alfa);
---appearance200: #5e17eb(--neutral200Alfa);
+    display: flex;
+    --appearance100: #5e17eb(--neutral100Alfa);
+    --appearance200: #5e17eb(--neutral200Alfa);
 }
 
 
 
 a {
-text-decoration: none;
-color: #5e17eb(--letrasPrimary600Contrast);
+    text-decoration: none;
+    color: #5e17eb(--letrasPrimary600Contrast);
 }
 
 a:-webkit-any-link {
-cursor: pointer;
+    cursor: pointer;
 }
 li {
-text-align: -webkit-match-parent;
+    text-align: -webkit-match-parent;
 }
 ol, ul {
-list-style: none;
+    list-style: none;
 }
 
 .thumbnail.--skin-image.--shape-circle.--size-xLarge img, .thumbnail.--skin-image.--shape-square.--size-xLarge img {
-width: 200px;
+    width: 200px;
 }
 
 .thumbnail.--skin-image.--shape-circle img, .thumbnail.--skin-image.--size-small.--shape-circle img, .thumbnail.--skin-image.--size-xSmall.--shape-circle img {
-border-radius: 50%;
+    border-radius: 50%;
 }
 .profile-genre, .thumbnail.--skin-image.--shape-circle img, .thumbnail.--skin-image.--shape-square img {
-aspect-ratio: 1 / 1;
+    aspect-ratio: 1 / 1;
 }
 
 .thumbnail.--skin-image img {
-background-color: var(--neutral100);
+    background-color: var(--neutral100);
 }
 img {
-border: 0;
-font-size: 0;
+    border: 0;
+    font-size: 0;
 }
 img {
-overflow-clip-margin: content-box;
-overflow: clip;
+    overflow-clip-margin: content-box;
+    overflow: clip;
 }
 .thumbnail {
-display: flex;
---appearance100: var(--neutral100Alfa);
---appearance200: var(--neutral200Alfa);
+    display: flex;
+    --appearance100: var(--neutral100Alfa);
+    --appearance200: var(--neutral200Alfa);
 }
 .thumbnail {
-display: flex;
+    display: flex;
 }
 
 .thumbnail {
-display: flex;
---appearance100: var(--neutral100Alfa);
---appearance200: var(--neutral200Alfa);
+    display: flex;
+    --appearance100: var(--neutral100Alfa);
+    --appearance200: var(--neutral200Alfa);
 }
 a {
-text-decoration: none;
-color: var(--letrasPrimary600Contrast);
+    text-decoration: none;
+    color: var(--letrasPrimary600Contrast);
 }
 
 a:-webkit-any-link {
-cursor: pointer;
+    cursor: pointer;
 }
 li {
-text-align: -webkit-match-parent;
+    text-align: -webkit-match-parent;
 }
 ol, ul {
-list-style: none;
+    list-style: none;
 }
 
 
 .contextualPlanCard-button.isLoading, .homeRecommendedArtists-artists-link span, .lastLyrics-item .textStyle, .profile-messages div+div, .u-overflowHidden, .user-notifications {
-overflow: hidden;
+    overflow: hidden;
 }
 a {
-text-decoration: none;
-color: var(--letrasPrimary600Contrast);
+    text-decoration: none;
+    color: var(--letrasPrimary600Contrast);
 }
 
 a {
-text-decoration: none;
-color: var(--letrasPrimary600Contrast);
+    text-decoration: none;
+    color: var(--letrasPrimary600Contrast);
 }
 
 .font.--base.--size18 {
-line-height: 1rem;
+    line-height: 1rem;
 }
 .font.--size18 {
-font-size: 1.2rem;
+    font-size: 1.2rem;
 }
