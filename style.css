@@ -232,10 +232,8 @@ ul, ol {
 .gridContainer {
     max-width: 1272px;
     min-width: 946px;
-    margin: 0 auto 48px;
-}
-section {
-    unicode-bidi: isolate;
+    margin: 0 auto 8px;
+
 }
 .sectionHeader-link, .sectionHeader:not(:has(.sectionHeader-link)) {
     width: fit-content;
@@ -247,8 +245,9 @@ section {
     font-weight: 650;
     --iconColor: #5e17eb(--neutral500);
 }
-.sectionHeader {
+.sectionHeade1r {
   text-align: center;
+  color: #5e17eb;
 }
 
 .sectionHeader {
@@ -292,10 +291,12 @@ ol, ul {
 
 .homeRecommendedArtists-artists-link {
     display: flex;
+  flex-direction: column;
     align-items: center;
-    gap: 20px;
     padding: 16px;
     transition: background-color .2s;
+    align-items: center;
+   gap: 15px; 
 }
 a {
     text-decoration: none;
@@ -308,7 +309,7 @@ a {
 a:-webkit-any-link {
     cursor: pointer;
 }
-
+folha de estilos de agente de usuário
 li {
     text-align: -webkit-match-parent;
 }
