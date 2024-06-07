@@ -277,7 +277,7 @@ ul {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    padding-inline-start: 40px;
+    padding-inline-start: 0px;
     unicode-bidi: isolate;
 }
 
@@ -308,7 +308,7 @@ a {
 a:-webkit-any-link {
     cursor: pointer;
 }
-folha de estilos de agente de usuário
+
 li {
     text-align: -webkit-match-parent;
 }
