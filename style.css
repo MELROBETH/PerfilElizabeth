@@ -412,3 +412,175 @@ a {
 .font.--size18 {
     font-size: 1.2rem;
 }
+
+
+/*lista de album*/
+.sectionHeader:not(:has(.sectionHeader-link)):is(a) {
+  position: relative;
+}
+
+.sectionHeader-link, .sectionHeader:not(:has(.sectionHeader-link)) {
+  width: fit-content;
+  color: var(--neutral600);
+  padding: 9px 0;
+  font-size: 1.4rem;
+  letter-spacing: -.0456rem;
+  line-height: 1.8rem;
+  font-weight: 340;
+  --iconColor: var(--neutral500);
+}
+.sectionHeader {
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.homeRecommendedAlbums-albums, .homeRecommendedSongs-songs, .homeTops-content, .momentPlaylistRow, .newsContainer {
+  display: flex;
+  gap: 1px; /*espaco entre*/
+}
+ol, ul {
+  list-style: none;
+}
+.player-info li:only-of-type, blockquote, body, button, h1, h2, h3, h4, h5, h6, hr, legend, ol, option, p, select, table, td, textarea, th, ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  unicode-bidi: isolate;
+}
+body, button, input, option, select, textarea {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  letter-spacing: -.0084rem;
+}
+body {
+  padding-top: 68px;
+  color: var(--neutral600);
+  background: var(--systemBackground);
+}
+.font, body, button, input, option, select, textarea {
+  font-family: Inter, "Noto Sans", Arial, Roboto, sans-serif;
+}
+
+.u-flex1 {
+  flex: 1;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  unicode-bidi: isolate;
+}
+ul {
+  list-style: none;
+}
+body, button, input, option, select, textarea {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  letter-spacing: -.0084rem;
+}
+body {
+  padding-top: 68px;
+  color: var(--neutral600);
+  background: var(--systemBackground);
+}
+.font, body, button, input, option, select, textarea {
+  font-family: Inter, "Noto Sans", Arial, Roboto, sans-serif;
+}
+
+
+.mediaList-item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 8px;
+  padding: 8px;
+  margin: -8px;
+  border-radius: 16px;
+  transition: background .3s ease-out;
+}
+a {
+  text-decoration: none;
+  color: #5e17eb(--letrasPrimary600Contrast);
+}
+.editPlaylist-selectOrder-select:focus, .editPlaylist-selectOrder:focus, a, button, input, textarea {
+  outline: 0;
+}
+
+.thumbnail.--skin-image.--shape-square.--size-proportional img {
+  width: 60%;
+}
+.profile-genre, .thumbnail.--skin-image.--shape-circle img, .thumbnail.--skin-image.--shape-square img {
+  aspect-ratio: 1 / 1;
+}
+
+img {
+  border: 6;
+  font-size: 6;
+}
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+.thumbnail {
+  display: flex;
+  --appearance100: #5e17eb(--neutral100Alfa);
+  --appearance200: #5e17eb(--neutral200Alfa);
+}
+
+a {
+  text-decoration: none;
+  color: #5e17eb(--letrasPrimary600Contrast);
+}
+
+
+
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+a {
+  text-decoration: none;
+  color: #5e17eb(--letrasPrimary600Contrast);
+}
+
+.font.--base.--size16 {
+  letter-spacing: -.0176rem;
+  line-height: 2rem;
+}
+.font.--size16 {
+  font-size: 1.6rem;
+}
+.mediaList-item-primaryText, .textField-label, .title.--artist.--lyricsLayers a {
+  color: var(--neutral600);
+}
+.u-truncate3 {
+  -webkit-line-clamp: 3;
+}
+.u-truncate2, .u-truncate3, .u-truncate4 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  word-break: break-word;
+  overflow: hidden;
+}
+.font {
+  font-weight: 400;
+}
+.font, body, button, input, option, select, textarea {
+  font-family: Inter, "Noto Sans", Arial, Roboto, sans-serif;
+}
+
+
+
