@@ -408,6 +408,7 @@ a {
 
 /*lista de album*/
 
+
 .nome2, .nome2:not(:has(.nome2-link)) {
   width: fit-content;
   color: #5e17eb; /* corrigido: cor específica */
@@ -484,7 +485,7 @@ li {
   padding: 8px;
   margin: -8px;
   border-radius: 16px;
-  transition: .3s ease-out;
+  transition:  .3s ease-out;
 }
 
 a {
