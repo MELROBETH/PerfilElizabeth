@@ -408,3 +408,109 @@ a {
 
 /*lista de album*/
 
+.nome2, .nome2:not(:has(.nome2-link)) {
+  width: fit-content;
+  color: #5e17eb; /* corrigido: cor específica */
+  padding: 9px 0;
+  font-size: 1.4rem;
+  letter-spacing: -.0456rem;
+  line-height: 1.8rem;
+  font-weight: 340; /* corrigido: ajustado valor */
+  --iconColor: #5e17eb; /* corrigido: variável correta */
+}
+
+.sectionHeader {
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.homeRecommendedAlbums-albums,
+.homeRecommendedSongs-songs,
+.homeTops-content,
+.momentPlaylistRow,
+.newsContainer {
+  display: flex;
+  gap: 1px; /* espaço entre */
+}
+
+ul {
+  margin-block-start: 1em;
+  margin-block-end: 6em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 40px;
+  unicode-bidi: isolate;
+}
+
+body,
+button,
+input,
+option,
+select,
+textarea {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  letter-spacing: -.0084rem;
+  font-family: Inter, "Noto Sans", Arial, Roboto, sans-serif; /* corrigido: aplicado a todos os elementos */
+}
+
+.u-flex1 {
+  flex: 1;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent; /* propriedade removida, não necessária */
+  unicode-bidi: isolate;
+}
+
+.thumbnail.--skin-image.--shape-square.--size-proportional img {
+  width: 60%;
+}
+
+.img-thumbnail.--skin-image.--shape-circle img,
+.thumbnail.--skin-image.--shape-square img {
+  aspect-ratio: 1 / 1;
+}
+
+.mediaList-item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 8px;
+  padding: 8px;
+  margin: -8px;
+  border-radius: 16px;
+  transition: .3s ease-out;
+}
+
+a {
+  text-decoration: none;
+  color: #5e17eb; /* corrigido: cor específica */
+}
+
+.thumbnail.--skin-image.--shape-square img {
+  width: 60%; /* mantido devido à especificidade */
+}
+
+.font.--base.--size16 {
+  letter-spacing: -.0176rem;
+  line-height: 2rem;
+}
+
+.mediaList-item-primaryText,
+.textField-label,
+.title.--artist.--lyricsLayers a {
+  color: var(--neutral600);
+}
+
+.u-truncate3 {
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  word-break: break-word;
+  overflow: hidden;
+}
