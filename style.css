@@ -409,3 +409,63 @@ a {
 /*lista de album*/
 
 
+.titulo:not(:has(.secti-link)) {
+  width: 100%; /* Faz o título ocupar toda a largura disponível */
+  color: #5e17eb;
+  padding: 6px;
+  font-size: 2.4rem;
+  letter-spacing: -.0456rem;
+  line-height: .8rem;
+  font-weight: 650;
+  --iconColor: #5e17eb(--neutral500);
+  font-family: 'Arial', sans-serif; /* Fonte do texto */
+  text-align: center; /* Centraliza o texto */
+  margin-bottom: 60px; /* Espaçamento inferior entre o título e a lista */
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 40vh; /* Altura total da tela */
+  flex-direction: column; /* Coloca os elementos em coluna */
+}
+
+/* Ajustes para os álbuns recomendados */
+.horizontal-list {
+  display: flex;
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  gap: 70px; /* Espaçamento entre os itens */
+  padding: 30px 0; /* Ajuste do padding para corresponder ao restante do álbum */
+  max-width: 80%; /* Define a largura máxima da lista */
+ 
+}
+
+.list-item {
+  text-align: center;
+  flex: 0 0 auto; /* Define que os itens não devem crescer */
+  width: 150px; /* Largura dos itens */
+}
+
+.list-item img {
+  width: 100%; /* Largura das imagens ajustada para preencher o espaço */
+  height: auto; /* Altura automática */
+  border-radius: 8px; /* Borda arredondada */
+}
+
+.list-item p {
+  margin-top: 8px; /* Espaçamento entre a imagem e o texto */
+  font-size: 1.2rem; /* Tamanho da fonte */
+  font-weight: bold; /* Negrito */
+  text-decoration: none;
+  color: #5e17eb; /* Cor do texto */
+  font-family: 'Arial', sans-serif; /* Fonte do texto */
+}
+
+.nome {
+  font-size: 1.2rem; /* Tamanho da fonte */
+  text-decoration: none;
+  color: #5e17eb; /* Cor do texto */
+  font-family: 'Gill Sans', sans-serif; /* Fonte do texto */
+}
+
