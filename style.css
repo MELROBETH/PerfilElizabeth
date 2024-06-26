@@ -438,7 +438,7 @@ a {
   gap: 70px; /* Espaçamento entre os itens */
   padding: 30px 0; /* Ajuste do padding para corresponder ao restante do álbum */
   max-width: 80%; /* Define a largura máxima da lista */
- 
+  margin-top: 20px; /* Espaçamento entre o título e a lista */
 }
 
 .list-item {
@@ -468,4 +468,5 @@ a {
   color: #5e17eb; /* Cor do texto */
   font-family: 'Gill Sans', sans-serif; /* Fonte do texto */
 }
+
 
