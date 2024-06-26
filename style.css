@@ -420,7 +420,6 @@ a {
   --iconColor: #5e17eb(--neutral500);
   font-family: 'Arial', sans-serif; /* Fonte do texto */
   text-align: center; /* Centraliza o texto */
-  margin-bottom: 60px; /* Espaçamento inferior entre o título e a lista */
 }
 
 .container {
@@ -438,7 +437,7 @@ a {
   gap: 70px; /* Espaçamento entre os itens */
   padding: 30px 0; /* Ajuste do padding para corresponder ao restante do álbum */
   max-width: 80%; /* Define a largura máxima da lista */
-  margin-top: 20px; /* Espaçamento entre o título e a lista */
+  margin-top: 70px; /* Espaçamento entre o título e a lista */
 }
 
 .list-item {
