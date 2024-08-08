@@ -7,14 +7,14 @@ margin: 0 auto;
 
 /* Estilos para a imagem */
 .imagemm {
-  max-width: 70%;
+  max-width: 60%;
   height: auto;
   border-radius: 10px;
   display: block; /* Garante que a imagem se comporte como um bloco */
   margin-left: auto; /* Centraliza a imagem horizontalmente */
   margin-right: auto; /* Centraliza a imagem horizontalmente */
 }
-
+/*fim da imagem*/
 
 /*começo do menu*/
 body {
@@ -216,10 +216,10 @@ ul, ol {
     list-style: none;
 }
 
-/*lista de artistas*/
+/*lista de artistas recomendados*/
 
 .gridContainer {
-        width: calc(100vw - 15px);
+    width: calc(100vw - 15px);
 }
 .gridContainer {
     max-width: 1272px;
@@ -273,23 +273,23 @@ ul {
 }
 
 li {
-    display: list-item;
-    text-align: -webkit-match-parent;
-    unicode-bidi: isolate;
+  display: list-item;
+  unicode-bidi: isolate;
 }
+
 ol, ul {
     list-style: none;
 }
 
 .homeRecommendedArtists-artists-link {
     display: flex;
-  flex-direction: column;
+    flex-direction: column;
     align-items: center;
     padding: 16px;
-    transition: background-color .2s;
     align-items: center;
-   gap: 15px; 
+    gap: 15px; 
 }
+
 a {
     text-decoration: none;
     color: var(--letrasPrimary600Contrast);
@@ -301,7 +301,7 @@ a {
 a:-webkit-any-link {
     cursor: pointer;
 }
-folha de estilos de agente de usuário
+
 li {
     text-align: -webkit-match-parent;
 }
@@ -326,9 +326,7 @@ a {
 a:-webkit-any-link {
     cursor: pointer;
 }
-li {
-    text-align: -webkit-match-parent;
-}
+
 ol, ul {
     list-style: none;
 }
@@ -340,9 +338,7 @@ ol, ul {
 .thumbnail.--skin-image.--shape-circle img, .thumbnail.--skin-image.--size-small.--shape-circle img, .thumbnail.--skin-image.--size-xSmall.--shape-circle img {
     border-radius: 50%;
 }
-.profile-genre, .thumbnail.--skin-image.--shape-circle img, .thumbnail.--skin-image.--shape-square img {
-    aspect-ratio: 1 / 1;
-}
+
 
 .thumbnail.--skin-image img {
     background-color: var(--neutral100);
@@ -352,7 +348,6 @@ img {
     font-size: 0;
 }
 img {
-    overflow-clip-margin: content-box;
     overflow: clip;
 }
 .thumbnail {
@@ -371,7 +366,7 @@ img {
 }
 a {
     text-decoration: none;
-    color: var(--letrasPrimary600Contrast);
+    color:  #5e17eb (--letrasPrimary600Contrast);
 }
 
 a:-webkit-any-link {
@@ -390,12 +385,7 @@ ol, ul {
 }
 a {
     text-decoration: none;
-    color: var(--letrasPrimary600Contrast);
-}
-
-a {
-    text-decoration: none;
-    color: var(--letrasPrimary600Contrast);
+    color: #5e17eb (--letrasPrimary600Contrast);
 }
 
 .font.--base.--size18 {
