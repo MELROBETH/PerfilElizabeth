@@ -461,4 +461,48 @@ a {
 }
 
 
-/*site responsivo*/
+/* Media Query para telas menores */
+@media screen and (max-width: 768px) {
+  
+  /* Reduz o tamanho do logotipo */
+  .logo {
+    width: 150px;
+  }
+  
+  /* Ajusta a imagem para ocupar mais espaço em telas menores */
+  .imagemm {
+    max-width: 90%;
+  }
+
+  /* Ajusta o menu lateral para telas menores */
+  .sidenav a {
+    font-size: 20px;
+    padding: 8px 16px;
+  }
+
+  /* Centraliza e redimensiona os itens de lista verticalmente */
+  .horizontal-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  /* Ajusta os botões */
+  .button {
+    padding: 8px 12px;
+  }
+
+  /* Reduz o tamanho do título principal */
+  .homeSectionHeader-link, 
+  .lyric-meaning h3 {
+    font-size: 1.8rem;
+  }
+
+  /* Centraliza o conteúdo de listas e melhora o espaçamento */
+  .top-list_mus a {
+    padding: 8px;
+  }
+}
+
+
+
