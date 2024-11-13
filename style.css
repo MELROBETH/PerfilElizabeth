@@ -92,7 +92,7 @@ img {
   border-radius: 10px;
 }
 /*fim fa imagem*/
-/*começo-mais acessadas*/
+/*começo do nome mais acessadas*/
 .homeSectionHeader-link, 
 .lyric-meaning h3 {
     font-family: Inter, "Noto Sans", Arial, Roboto, sans-serif;
@@ -116,7 +116,8 @@ img {
 }
 
 
-/*fim-mais acessadas*/
+/*fim do nome mais acessadas*/
+/*inicio da lista de musicas*/
 
 .top-list_mus li {
   counter-increment: tlmus;
@@ -132,6 +133,7 @@ ul, ol {
 ol, ul {
   list-style: none;
 }
+
 .top-list_mus a {
   padding: 12px 16px 12px 64px;
   position: relative;
@@ -215,7 +217,7 @@ ul, ol {
 ul, ol {
     list-style: none;
 }
-
+/*fim da lista*/
 /*lista de artistas recomendados*/
 
 .gridContainer {
@@ -459,3 +461,4 @@ a {
 }
 
 
+/*site responsivo*/
