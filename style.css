@@ -60,6 +60,7 @@ body {
   .sidenav a {font-size: 18px;}
 }
 /*fim do menu*/
+
 /*começo do botão*/
 body {
     background-color: #fafafa;
@@ -85,6 +86,7 @@ body {
   background-color: #7e7e7e;
 }
 /*fim do botao*/
+
 /*coemço da imagem*/
 img {
   max-width: 70%;
@@ -92,6 +94,7 @@ img {
   border-radius: 10px;
 }
 /*fim fa imagem*/
+
 /*começo do nome mais acessadas*/
 .homeSectionHeader-link, 
 .lyric-meaning h3 {
@@ -117,6 +120,7 @@ img {
 
 
 /*fim do nome mais acessadas*/
+
 /*inicio da lista de musicas*/
 
 .top-list_mus li {
@@ -218,6 +222,7 @@ ul, ol {
     list-style: none;
 }
 /*fim da lista*/
+
 /*lista de artistas recomendados*/
 
 .gridContainer {
@@ -460,49 +465,4 @@ a {
   font-family: 'Gill Sans', sans-serif; /* Fonte do texto */
 }
 
-
-/* Media Query para telas menores */
-@media screen and (max-width: 768px) {
-  
-  /* Reduz o tamanho do logotipo */
-  .logo {
-    width: 150px;
-  }
-  
-  /* Ajusta a imagem para ocupar mais espaço em telas menores */
-  .imagemm {
-    max-width: 90%;
-  }
-
-  /* Ajusta o menu lateral para telas menores */
-  .sidenav a {
-    font-size: 20px;
-    padding: 8px 16px;
-  }
-
-  /* Centraliza e redimensiona os itens de lista verticalmente */
-  .horizontal-list {
-    flex-direction: column;
-    align-items: center;
-    gap: 16px;
-  }
-
-  /* Ajusta os botões */
-  .button {
-    padding: 8px 12px;
-  }
-
-  /* Reduz o tamanho do título principal */
-  .homeSectionHeader-link, 
-  .lyric-meaning h3 {
-    font-size: 1.8rem;
-  }
-
-  /* Centraliza o conteúdo de listas e melhora o espaçamento */
-  .top-list_mus a {
-    padding: 8px;
-  }
-}
-
-
-
+/* fim dos albuns recomendados */
